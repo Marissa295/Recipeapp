@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Sixthfood">
+
+        <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="Prawn Linguine"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/prawnlinguane"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardBackgroundColor="@color/teal_200"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_1">
+
+            <TextView
+                android:id="@+id/ingrediants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIANTS"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/andika"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="- Olive oil\n- Shallots 2, diced
+\n- Ginger 1cm piece, peeled and grated
+\n- Garlic 1 clove, crushed
+\n- Chilli flakes a large pinch
+\n- Chopped tomatoes 400g tin
+\n- Linguine 150g
+\n- Flat-leaf parsley ½ bunch, chopped
+\n- Raw peeled prawns 150g
+\n- Rocket salad to serve"
+                />
+
+            <TextView
+                android:id="@+id/method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="METHOD"
+                android:textSize="30dp"
+                android:layout_marginTop="450dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:fontFamily="@font/andika"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="STEP 1\nHeat 1 tsp oil in a large frying pan, add the shallots and fry for 2 minutes before adding the ginger, garlic and chilli flakes.
+
+\n\nSTEP 2\nFry for another 2 minutes. Add the chopped tomatoes and simmer for 20 minutes until saucy.
+
+\n\nSTEP 3\nCook the linguine in boiling salted water until just tender, then drain.
+
+\n\nSTEP 4\nStir the parsley and the prawns into the tomato base, season well and cook until the prawns turn pink.
+
+\n\nSTEP 5\nAdd the cooked linguine, toss and serve."
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <android.widget.Button
+            android:id="@+id/button_back"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg_2"
+            android:fontFamily="@font/andika"
+            android:text="BACK"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

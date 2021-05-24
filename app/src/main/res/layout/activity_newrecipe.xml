@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".Newrecipe">
+
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/asap_medium"
+                android:gravity="center_horizontal"
+                android:text="Create New Bak Kut Teh with the additional ingrediants given"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageBanner_1" />
+
+            <ImageView
+                android:id="@+id/img_5"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/chickenbriyani"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/title_5"
+                app:layout_constraintTop_toBottomOf="@id/text11" />
+
+
+            <ImageView
+                android:id="@+id/imageBanner_1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+
+                android:background="@color/lightorange"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/title_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CREATE NEW BRIYANI RECIPE"
+                android:gravity="center"
+                android:textSize="35sp"
+                android:fontFamily="@font/bangers"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/check1"
+                android:layout_width="144dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="230dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Yogurt"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title_5" />
+
+            <CheckBox
+                android:id="@+id/check2"
+                android:layout_width="144dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="230dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Salt"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/check1" />
+
+            <CheckBox
+                android:id="@+id/check3"
+                android:layout_width="144dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="230dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Tomato"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/check2" />
+
+            <CheckBox
+                android:id="@+id/check4"
+                android:layout_width="144dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="230dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Cashew Nuts"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/check3" />
+
+            <TextView
+                android:id="@+id/title_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="230dp"
+                android:fontFamily="serif"
+                android:text="METHOD"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/check4"
+                />
+
+            <EditText
+                android:id="@+id/ed_1"
+                android:layout_width="350dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_6" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/title_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="230dp"
+                android:fontFamily="serif"
+                android:text="INGREDIANTS"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text11"
+
+                />
+
+
+
+            <android.widget.Button
+                android:id="@+id/buttoncreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_bg_3"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="CREATE"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.425"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ed_1" />
+
+
+
+                <TextView
+                    android:id="@+id/text_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center|center_horizontal"
+                    android:text="Your New Recipe"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/buttoncreate" />
+
+                <TextView
+                    android:id="@+id/text_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="200dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="left"
+                    android:text="Ingrediants"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.072"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/text_13" />
+
+                <TextView
+                    android:id="@+id/result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:fontFamily="@font/andika"
+                    android:gravity="left"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/text_14" />
+
+                <TextView
+                    android:id="@+id/text_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="200dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="left"
+                    android:text="Method"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.235"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/result" />
+
+                <TextView
+                    android:id="@+id/result2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/andika"
+                    android:textSize="25sp"
+                    android:gravity="left"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/text_15" />
+
+            <android.widget.Button
+                android:id="@+id/buttonback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_bg"
+                android:text="Back"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/result2" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/buttonback" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+    </ScrollView>

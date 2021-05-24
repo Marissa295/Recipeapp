@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splashfood"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center_horizontal"
+        android:text="A\nCooking\nTour"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="Welcome\nto\nan\nexotic\ncooking\nexperience"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <android.widget.Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/btn_bg"
+        android:text="Get Started"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true" />
+
+
+
+</RelativeLayout>
+
+

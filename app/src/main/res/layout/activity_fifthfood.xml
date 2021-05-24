@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Fifthfood"
+        >
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bangers"
+            android:gravity="center"
+            android:text="Spring Pasta"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/springpasta"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardBackgroundColor="@color/teal_200"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_1">
+
+            <TextView
+                android:id="@+id/ingrediants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIANTS"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/andika"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="- Cooking spray\n- 12 oz. salmon fillets, skin removed
+\n- 1 tsp. whole coriander, crushed
+\n- Kosher salt and freshly ground black\n  pepper
+\n- 1 lb. cavatappi or other short pasta
+\n- 8 oz. fresh or frozen English peas
+\n- 4 tbsp. unsalted butter, cut into pieces
+\n- 1/2 yellow onion, chopped
+\n- 1/2 c. dry white wine
+\n- 3 tbsp. fresh dill, torn"
+                />
+
+            <TextView
+                android:id="@+id/method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="METHOD"
+                android:textSize="30dp"
+                android:layout_marginTop="450dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:fontFamily="@font/andika"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="STEP 1\nPreheat oven to 350°F. Lightly grease a small baking sheet. Season salmon with coriander, salt, and pepper. Roast on prepared baking sheet until cooked through, 13 to 15 minutes. Transfer to a plate. Cool completely, then flake into large pieces.
+\n\nSTEP 2\nMeanwhile, cook pasta according to package directions, adding peas during last 1 (if using frozen) to 4 (if using fresh) minutes. Reserve 1 cup cooking water; drain. Return pasta to pot.
+\n\nSTEP 3\nMelt 2 tablespoons butter in a large skillet over medium heat. Add onion and season with salt and pepper. Cook, stirring occasionally, until tender, 6 to 8 minutes. Add wine and cook until syrupy, 3 to 4 minutes. Add pasta and 1/2 cup reserve cooking water. Bring to a simmer. Remove from heat and stir in remaining 2 tablespoons butter (adding additional cooking water if needed to create a sauce). Gently fold in dill and salmon."
+                />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <android.widget.Button
+            android:id="@+id/button_back"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg_2"
+            android:fontFamily="@font/andika"
+            android:text="BACK"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_1" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

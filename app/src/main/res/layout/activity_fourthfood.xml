@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Fourthfood">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bangers"
+            android:gravity="center"
+            android:text="Green Linguine"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/greenlnguine"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardBackgroundColor="@color/teal_200"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_1">
+
+
+
+            <TextView
+                android:id="@+id/ingrediants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIANTS"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/andika"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="- Frozen peas 125g\n- Frozen broad beans 50g
+\n- Olive oil 1 tbsp
+\n- Leek 1 small, finely sliced
+\n- Dried chilli flakes 1 tsp
+\n- Ricotta 75g
+\n- Parmesan (or veggie alternative) 20g,\n   grated, plus a little extra to serve
+\n- Lemon 1/2, zested and juiced
+\n- Linguine 150g
+\n- Mint a small bunch, shredded"
+                />
+
+            <TextView
+                android:id="@+id/method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="METHOD"
+                android:textSize="30dp"
+                android:layout_marginTop="450dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:fontFamily="@font/andika"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="STEP 1\nPut the peas and broad beans into a bowl and pour over a kettle of boiling water. Leave for 1 minute, drain, and pod the broad beans. Take about ¾ of the peas and blend in a food processor or with a hand blender with 1 tbsp of water until smooth.\n\nSTEP 2\nHeat the olive oil in a frying pan and fry the leek with some seasoning for 8-10 minutes until soft. Stir in the chilli flakes, broad beans and remaining peas, and fry for 2 minutes. Cool slightly and put into a bowl with the pea purée, ricotta, parmesan, lemon zest and juice and some seasoning, and mix well.\n\nSTEP 3\nCook the linguine following pack instructions, reserving some cooking water.\n\nSTEP 4\nTip the pasta back into the pan and add the pea and leek mix, and a splash of the cooking water. Mix well and serve with the mint and more parmesan, if you like."
+                />
+        </com.google.android.material.card.MaterialCardView>
+
+        <android.widget.Button
+            android:id="@+id/button_back"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg_2"
+            android:fontFamily="@font/andika"
+            android:text="BACK"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

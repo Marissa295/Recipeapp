@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Secondfood"
+        >
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bangers"
+            android:gravity="center"
+            android:text="TUNA PASTA BAKE"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/tunapasta"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardBackgroundColor="@color/teal_200"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_1">
+
+            <TextView
+                android:id="@+id/ingrediants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIANTS"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/andika"
+                android:paddingLeft="20dp"
+                android:text="- Fusilli 200g\n- Olive oil 1 tbsp\n- Onion 1, finely chopped\n- Garlic 2 cloves, crushed\n- Dried chilli flakes a good pinch\n- Chopped tomatoes 400g tin\n- Tuna in olive oil 200g tin, drained\n- Rosemary needles chopped to make 1 tsp (optional)\n- Mature cheddar 75g, grated"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:id="@+id/method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="METHOD"
+                android:textSize="30dp"
+                android:layout_marginTop="450dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:fontFamily="@font/andika"
+                android:paddingLeft="20dp"
+                android:text="STEP 1\nCook the fusilli following pack instructions, then drain well.\n\nSTEP 2\nHeat the oven to 190C/fan 170C/gas 5. Heat the olive oil in a pan and cook the onion for 10 minutes until softened a little. Add the garlic and chilli flakes, and cook for 3 minutes. Add the tomatoes and half a tin of water, then simmer for 10 minutes. Season.\n\nSTEP 3\nStir the tuna into the sauce with the rosemary (if using) and drained pasta, and tip into a 26cm x 18cm baking dish. Scatter over the cheese then bake for 20-25 minutes or until piping hot and bubbling. Serve with a green salad, if you like."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <android.widget.Button
+            android:id="@+id/button_back"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg_2"
+            android:fontFamily="@font/andika"
+            android:text="BACK"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_1" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

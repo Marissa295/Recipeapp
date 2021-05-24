@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Malay">
+
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/lightgreen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NASI LEMAK"
+            android:textSize="60dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/bangers"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_11"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_3"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent"
+                android:background="@drawable/nasilemak"
+
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/text_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrediants"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="30dp"
+            app:layout_constraintTop_toBottomOf="@id/card_11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/text_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Method"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="30dp"
+            app:layout_constraintTop_toBottomOf="@id/text_6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/text_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/andika"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_5"
+            android:text=" COCONUT RICE\n
+- 3 cups basmati rice\n
+- 1 tablespoon salt\n
+- 4 cloves garlic, smashed\n
+- 1 1-inch piece fresh ginger, peeled\n      and sliced\n
+- 2 pandan leaves, tied into a knot\n
+- 3 cups coconut milk\n
+- 1 1/2 cups water\n\n
+ FRIED PEANUTS AND ANCHOVIES\n
+- 2/3 cup peanut or canola oil\n
+- 1 cup raw peanuts with skin on\n
+- 1 1/2 cups dried anchovies, washed\n   and drained\n\n
+ ANCHOVY SAMBAL\n
+- 6 tablespons Sambal Ulek\n
+- 4 cloves garlic, peeled and left whole\n
+- 1 1-inch piece fresh ginger, peeled\n   and sliced\n
+- 4 shallots, peeled and cut in half\n
+- 3/4 cup water\n
+- 6 tablespoons peanut oil\n
+- 1 teaspoon salt, or to taste\n
+- 1 tablespoon sugar, or to taste\n
+- 1/2 medium onion, thinly sliced\n
+- 3 tablespoons Tamarind water, or 2\n    tablespoons tamarind liquid\n    concentrate\n\n
+ ACCOMPANIMENTS\n
+- 6 banana leaves (12 by 9 inches\n   each), cleaned\n
+- 1/2 small cucumber, sliced\n
+- 3 hard-boiled eggs, cut in half"
+
+            />
+        <TextView
+            android:id="@+id/text_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_8"
+           android:text=" STEP 1\nPrepare the coconut rice:\nWash the rice by gently rubbing it with your fingers in a bowl filled with water. When the water becomes cloudy, drain the water and repeat the process until the water is clear. Place the rice in a large saucepan and add the salt, garlic, ginger, pandan leaves, coconut milk, and water. Bring to a boil over medium heat, then simmer, uncovered, until steam holes appear in the rice and the surface looks dry, about 10 minutes. Reduce the heat to low, cover with a tight-fitting lid, and cook, without stirring, until all the coconut milk is absorbed and the grains are tender and fluffy, about 20 minutes more. (Alternatively, you can cook all the ingredients in a rice cooker.) When the rice is done, discard the garlic, ginger, and pandan leaves and stir the rice.\n\nSTEP 2\nMeanwhile, fry the peanuts and anchovies: Heat the oil in a wok or skillet over medium-low heat. When the oil shimmers, add the peanuts and cook until they turn brown, about 5 minutes. Transfer the peanuts with a slotted spoon to a paper towel to drain.\n\n
+STEP 3\nNext, carefully add the dried anchovies and stir-fry, moving the anchovies back and forth, until golden brown and crispy, about 7 minutes. Transfer the anchovies to a paper towel. Discard the oil. Set aside half of the anchovies to serve with rice and use the other half for the sambal.\n\n
+STEP 4\nPrepare the anchovy sambal: Blend the sambal ulek, garlic, ginger, shallots, and ¼ cup water in a blender to a smooth paste with the consistency of applesauce. Heat the oil in a wok or skillet over medium heat. When the oil is hot, add the sambal paste, salt, and sugar and stir-fry until fragrant and the oils separate onto the surface, about 10 minutes. Add the onion and cook until the onion is soft, another 5 minutes. Add the tamarind water and remaining ½ cup water and mix well to combine with the paste. Now add half the crispy anchovies and allow to cook for 5 minutes. Taste the sambal and add more sugar or salt if needed; you want a balanced sweet-salty taste. Turn off the heat.\n\n
+STEP 5\nTo serve, line each diner’s plate with a banana leaf. Place about 1 cup of the cooked coconut rice in the middle of the leaf. (If you like, press the rice into a bowl first and then invert it onto the plate for a neat domed shape.) Put about 3 tablespoons of the anchovy sambal on top of the rice. Place a few sliced cucumbers, half of a hard-boiled egg, and finally 1 tablespoon each of the peanuts and fried anchovies around the rice. Serve warm."
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/andika"
+            />
+
+        <android.widget.Button
+            android:id="@+id/newrecipe"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg_4"
+            android:text="CREATE NEW RECIPE"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_7"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/newrecipe"
+            />
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

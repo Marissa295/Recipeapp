@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Indian"
+        >
+
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/lightorange"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHICKEN BRIYANI"
+            android:textSize="60dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/bangers"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_11"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_2"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent"
+                android:background="@drawable/chickenbriyani"
+
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrediants"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="30dp"
+            app:layout_constraintTop_toBottomOf="@id/card_11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Method"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="30dp"
+            app:layout_constraintTop_toBottomOf="@id/text_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/andika"
+            android:text=" FOR CHICKEN\n\n - 1 table spoon vegetable oil\n - 10 gramsgarlic (grated)\n - 10 gramsginger (grated)\n - 1 serrano chili peppers (to taste,\n    minced)\n - 5 gramsmint (finely chopped)\n - 10 gramscilantro (finely chopped)\n - 1 table spoon garam masala\n - 1/2 tea spoon ground cinnamon\n - 1 tea spoon salt\n - 900 grams bone-in skin-on chicken\n   thighs\n\n FOR RICE\n
+\n - 6 cupswater\n - 2 1/2 tea spoons salt\n - 5pods green cardamom (smashed)\n - 1 tea spoon cumin seeds\n - 1bay leaf\n - 360 grams basmati rice (~2 cups)\n\n FOR ONIONS
+\n\n - 2 table spoon ghee\n - 2medium onions (sliced thin)
+\n\n FOR BRIYANI
+\n\n - 1 cup reserved boiling liquid (from rice)\n - 1/2 tea spoon saffron threads cilantro\n   (for garnish)"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_1" />
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="STEP 1\nTo marinate the chicken for the biryani, combine the vegetable oil, garlic, ginger, chili peppers, mint, cilantro, garam masala, cinnamon and salt in a large bowl and stir together. Add the chicken pieces and toss together making sure the chicken is thoroughly coated in the marinade. Allow the chicken to marinate for at least 1 hour or up to overnight.\n\n STEP 2\n In a pot wide enough to hold the chicken in a single layer, add the ghee and onions and saute the onions until they are well caramelized (15-20 minutes). Transfer the caramelized onions to a bowl and set aside.\n\nSTEP 3\n While the onions caramelize, prepare the rice by washing in a strainer under cold running water until the water runs clear.\n\n STEP 4 \nTo par-boil the rice, add the water, salt, cardamom, cumin and bay leaf to a pot and bring to a boil. Add the rice and boil for 7 minutes. Drain the rice, reserving 1 cup of the liquid.\n\nSTEP 5 \n In the pot you caramelized the onions in, add the chicken in a single layer, skin-side down. Fry until golden brown on one side (about 5 minutes). Flip the chicken over and fry the other side until golden brown. Transfer the chicken back to the bowl you marinated it in.\n\nSTEP 6 \n To assemble the biryani, add the saffron to the rice and toss to distribute evenly. Add half the rice mixture to the bottom of the pot you browned the chicken in.\n\nSTEP 7 \n Top the rice with the chicken in a single layer. \n\nSTEP 8 \n Top the chicken with an even layer of caramelized onions.\n\nSTEP 9 \n Finish putting together the Biryani by adding the rest of the rice in an even layer. Add 1 cup of reserved liquid from boiling the rice. Cover the pot with a lid and put the pot on the stove over medium heat and set the timer for 20 minutes. When you can see steam escaping from under the lid, turn down the heat to low and continue cooking until the timer goes off and then turn off the heat.\n\nSTEP 10 \nWithout opening the lid, set the timer for another 10 minutes to steam the biryani.\n\nSTEP 11\nMix the Chicken Biryani together and then transfer to a serving platter. Garnish with fresh cilantro and serve.\n"
+            app:layout_constraintTop_toBottomOf="@id/text_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/andika"
+            />
+
+        <android.widget.Button
+            android:id="@+id/newrecipe"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CREATE NEW RECIPE"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_4"
+            />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/newrecipe"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

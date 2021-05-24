@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         tools:context=".Firstfood">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bangers"
+            android:gravity="center"
+            android:text="TURKEY RAGU"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/turkeyragu"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardBackgroundColor="@color/teal_200"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_1">
+
+
+            <TextView
+                android:id="@+id/ingrediants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIANTS"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/andika"
+                android:paddingLeft="20dp"
+                android:text="- Turkey breast mince 500g
+                            - Olive oil 1 tbsp\n- Onion 1, Finely chopped\n- Carrot 1 large, finely chopped\n- Celery 2 sticks, finely chopped\n- Courgette 1, finely chopped\n- Garlic 2 cloves, finely chopped\n- Marmite 1 tbsp\n- Tomato purée 2 tbsp\n- Wholewheat spaghetti 320g\n- Basil a few leaves, to serve\n"
+                android:textColor="@color/black"
+
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="METHOD"
+                android:textSize="30dp"
+                android:layout_marginTop="450dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:fontFamily="@font/andika"
+
+                android:paddingLeft="20dp"
+                android:text="STEP 1\nHeat the oven to 200C/fan 180C/gas 6. Tip the mince onto a non-stick baking tray and use a spoon to break into small pieces, spreading out so it’s in a thin layer. Put into the oven for 40 minutes, stirring halfway, until browned.\n\nSTEP 2\nHeat the olive oil in a large lidded pan or casserole and add the onion, carrot, celery, courgette and garlic with a large pinch of salt. Stir well, put on the lid and cook gently for 20 minutes, stirring every now and again, until the veg is very soft. Pour 500ml of boiling water into a jug and whisk in the Marmite and tomato purée. Pour into the pan along with the crispy turkey mince, scraping the bottom of the tray to get any crispy bits. Season and simmer gently for 30 minutes or until thickened.\n\nSTEP 3\nCook the spaghetti following pack instructions in a large pan of salted boiling water until al dente. Divide the spaghetti between four shallow bowls, top with the sauce and scatter over the basil leaves.\n\n"
+
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <android.widget.Button
+            android:id="@+id/button_back"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg_2"
+            android:fontFamily="@font/andika"
+            android:text="BACK"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</ScrollView>
